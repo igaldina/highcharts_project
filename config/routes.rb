@@ -1,4 +1,13 @@
 HighchartsProject::Application.routes.draw do
+  #get '/', to: redirect(ENV['RAILS_RELATIVE_URL_ROOT'].to_s) if ENV['RAILS_RELATIVE_URL_ROOT']
+
+  scope ENV['RAILS_RELATIVE_URL_ROOT'] || '/' do
+    root to: 'main#index'
+
+    resources :charts
+
+
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

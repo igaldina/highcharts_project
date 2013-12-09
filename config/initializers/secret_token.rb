@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-HighchartsProject::Application.config.secret_key_base = '15ca2aaad32f80c4097084662920189bcd104b6638fe345fada375ca96df060d3ba04e6b3f407fbaec75f313a65303ede96b3dfbdb85f43e7b31f5004126fe5f'
+HighchartsProject::Application.config.secret_key_base = 'bd5ccc4c87e37f4dd4d5d25337f6462587ca1849b36c56e11b23aae50e684f441a274456dc2caa6aed682b20b46380cf006a088c91f93d86989ac72ef3a2feb6'
