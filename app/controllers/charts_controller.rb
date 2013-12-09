@@ -1,5 +1,6 @@
 class ChartsController < ApplicationController
   def index
-    @chart = Chart.basic_line_chart
+    @chart_area = Chart.area_spline_chart
+    @chart_column = Chart.column_chart
   end
 end
